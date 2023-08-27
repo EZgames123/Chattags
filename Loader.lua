@@ -4,7 +4,7 @@ local lplr = Players.LocalPlayer
 local yes = Players.LocalPlayer.Name
 --local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Chattags/main/stupidwhitelists.lua"))()
 local ChatTag = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Chattags/main/Tags.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Chattags/main/Commands.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EZgames123/Chattags/main/Commands.lua", true))()
 
 local playerlist = game:GetService("CoreGui"):FindFirstChild("PlayerList")
 local players = game:GetService("Players")
