@@ -3,6 +3,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local lplr = Players.LocalPlayer
 local yes = Players.LocalPlayer.Name
 --local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Chattags/main/stupidwhitelists.lua"))()
+local whitelist =  loadstring(game:HttpGet("https://raw.githubusercontent.com/EZgames123/Chattags/main/Tags.lua"))()            
 local ChatTag = loadstring(game:HttpGet("https://raw.githubusercontent.com/EZgames123/Chattags/main/Tags.lua"))()
 local Commands = loadstring(game:HttpGet("https://raw.githubusercontent.com/EZgames123/Chattags/main/Commands.lua", true))()
 
